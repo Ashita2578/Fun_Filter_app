@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap');
+
+body {
+    background-image: url('https://images8.alphacoders.com/438/438409.jpg');
+background-size: cover;
+}
+
+.heading{
+    font-size: 40px;
+    width: 34%;
+    top: 0;
+    font-family: 'Russo One', sans-serif;
+    font-weight: bold;
+    color: whitesmoke;
+    letter-spacing: 3px;
+    background-color: rgb(6, 255, 2);
+    border-color: rgb(239, 52, 19);
+    border-radius: 10%;
+}
+
+.heading:hover{
+    background-color: rgb(21, 0, 247);
+    color: yellow;
+    border-color: rgb(16, 207, 221);
+}
+
+#TakeSnap{
+    font-family: Rowdies;
+    font-size: 18px;
+    background-color: rgb(106, 240, 231);
+    color:rgb(236, 53, 184);
+    border-color: rgb(182, 164, 3);
+}
+
+#TakeSnap:hover{
+    color: rgb(252, 248, 9);
+    background-color: rgb(255, 101, 101);
+    font-size:20px;
+   border-color: rgb(201, 12, 12);
+}
+
+canvas{
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example{
+    from{box-shadow: 4px 4px 50px red;}
+    to{box-shadow: 4px 4px 50px yellow, 4px 4px 50px blue;}
+}
